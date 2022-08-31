@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+body{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+  
+}
+button {
+    color: blue;
+    background-color:aliceblue;
+    border-style:outset;
+    border-width: 0px 0px 1px 1px;
+    box-shadow: 0px 0px 2px 0px;
+    margin: 10px;
+
+}
+button:hover{
+    color: brown;
+}
+button:active {
+    color: aquamarine;
+
+}
+.cardClass{
+    height: 30px;
+    width: 30px;
+    border-style: hidden;
+    background-color:darkblue;
+    color:aqua;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+button.cardClass:hover{
+    border-style:inset;
+    border-color: rgb(245, 186, 113);
+    color: brown;
+}
+button.cardClass:active{
+    color: chartreuse;
+    font-size: large;
+}
+.win {
+    color: rgb(63, 229, 146);
+    background-color: aliceblue;
+    font-size: larger;
+    
+}
+.lose
+{
+    color: red;
+    background-color: blanchedalmond;
+    font-size: larger;
+}
+.game {
+    color: black;
+}
+p.Name {
+    background-color: azure;
+}
+.cardDiv {
+display:flex;
+flex-direction:row;
+flex-wrap: wrap;
+gap: 4px;
+width: 400px;
+justify-items: center;
+background-color: azure;
+
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p .cardDiv {
+    color: aqua;
 }
+.gameDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: auto;
+    border-style:groove;
+border-color:rgb(189, 189, 249);
+border-width: 2px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+padding: 2%;
+background-color:rgb(248, 241, 241)
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+i  {
+    color: brown;
 }
